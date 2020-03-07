@@ -77,8 +77,23 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
         .setCountry("mesir")
         .printAll();
 
+* Encapsulation 
+   
+      sebuah method untuk membungkus sebiah method ataupun property didalam class agar method dan property tersebut tidak    dapat disalahgunakan. 
+      contoh :
+      //encapsulation
+      class Hewan {
+       constructor() {}
+        setAnimal(jenis, negara) {
+        this.nama = jenis + " " + negara;
+           }
+      getAnimal() {
+        return this.nama.split("").splice(0, 4);
+           }
+         }
+      const hewan = new Hewan();
+        hewan.setAnimal("onta", "mesir");
+         console.log(hewan.getAnimal()); //expected : [ 'o', 'n', 't', 'a' ]
       
-  
-
  
  
