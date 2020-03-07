@@ -10,18 +10,12 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
 
 - pembuatan class didalam javascript
 
-       class Hewan {
-
-       constructor(jenis) {
-  
-        this.jenis = jenis;
+       class Hewan { constructor(jenis) { 
+       this.jenis = jenis;
          }
-  
           binatang() {
-  
           console.log(this.jenis);
            }
         }
-
         const hewan = new Hewan("onta");
         hewan.binat
