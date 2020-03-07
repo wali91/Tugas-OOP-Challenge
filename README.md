@@ -95,5 +95,28 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
         hewan.setAnimal("onta", "mesir");
          console.log(hewan.getAnimal()); //expected : [ 'o', 'n', 't', 'a' ]
       
+ * inheritance 
  
+       merupakan sebuah method untuk menurunkan sifat pada class tersebut bisa berupa method dan property pada class lain.
+       contoh :
+       // class inheritance
+       class Hewan {
+       kakis = 0;
+       constructor(nama) {
+       this.nama = nama;
+       }
+       kaki() {
+       console.log(`Kucing ${this.jenis} mempunyai kaki ${this.kakis}`);
+         }
+       }
+       class Kucing extends Hewan {
+       constructor(jenis, kakis) {
+       super();
+       this.jenis = jenis;
+       this.kakis = kakis;
+        }
+       }
+       const kucing = new Kucing("anggora", 4);
+       kucing.kaki();      // expected : Kucing anggora mempunyai kaki 4
+
  
