@@ -54,6 +54,30 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
       suatu method yang memangil secara berantai/beruntun dengan mereturn/mengembalikan nilai value yang sama
       contoh :
       
+      //class method chaining
+      class Hewan {
+      constructor(jenis) {
+       this.jenis = jenis;
+       }
+      setCountry(negara) {
+       this.negara = negara;
+       return this;
+       }
+      setJumlahKaki(kaki) {
+      this.kaki = kaki;
+      return this;
+      }
+      printAll() {
+      console.log(this.jenis, this.negara, this.kaki);
+      }
+      }
+       const hewan = new Hewan("onta");
+      hewan
+        .setJumlahKaki(4)
+        .setCountry("mesir")
+        .printAll();
+
+      
   
 
  
