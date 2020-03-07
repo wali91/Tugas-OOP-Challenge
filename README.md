@@ -26,4 +26,28 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
    * Encapsulation
    * Inheritance
    * Polymorphism
+   
+* static method
+             
+      suatu method pada class yang mana memanggil methodnya tanpa membuat class dari method tersebut.
+      contohnya :
+      
+      //static method pada class
+      class Hewan {
+      constructor(jenis, jumlahKaki, negara) {
+      this.jenis = jenis;
+      this.jumlahKaki = jumlahKaki;
+      this.negara = negara;
+      }
+      static instance() {
+      return new Hewan("onta", 4, "mesir");
+      }
+      printJenis() {
+      console.log(`hewan ${this.jenis} berasal dari negara ${this.negara}`);
+      }
+      }
+      const hewan = Hewan.instance();
+      hewan.printJenis();
+
+ 
  
