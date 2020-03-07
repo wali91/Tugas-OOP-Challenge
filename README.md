@@ -18,4 +18,12 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
            }
         }
         const hewan = new Hewan("onta");
-        hewan.binat
+        hewan.binatang();
+        
+- ada beberapa method dialam membuat class :
+ * static method
+ * method chaining
+ * Encapsulation
+ * Inheritance
+ * Polymorphism
+ 
