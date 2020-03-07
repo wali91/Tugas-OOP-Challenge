@@ -27,7 +27,7 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
    * Inheritance
    * Polymorphism
    
-* static method
+**static method
              
       suatu method pada class yang mana memanggil methodnya tanpa membuat class dari method tersebut.
       contohnya :
@@ -49,7 +49,7 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
       const hewan = Hewan.instance();
       hewan.printJenis();
       
-* Method chaining (metode berantai)
+**Method chaining (metode berantai)
  
       suatu method yang memangil secara berantai/beruntun dengan mereturn/mengembalikan nilai value yang sama
       contoh :
@@ -77,7 +77,7 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
         .setCountry("mesir")
         .printAll();
 
-* Encapsulation 
+**Encapsulation 
    
       sebuah method untuk membungkus sebiah method ataupun property didalam class agar method dan property tersebut tidak    dapat disalahgunakan. 
       contoh :
