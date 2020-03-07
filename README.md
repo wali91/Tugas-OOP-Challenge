@@ -144,6 +144,9 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
           console.log(`${kucing.nama},berasal dari ${kucing.negara}`);
           };
             kucing.printAll();  // expected : rendi,berasal dari indonesia
+            
+2. Design Pattern 
 
+       Design Pattern merupakan sebuah prosedural dalam pengembangan aplikasi yang menjadi solusi dalam permasalahan secara umum.
   
  
