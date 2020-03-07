@@ -21,9 +21,9 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
         hewan.binatang();
         
 - ada beberapa method dialam membuat class :
-    * static method
-    * method chaining
-    * Encapsulation
-    * Inheritance
-    * Polymorphism
+   * static method
+   * method chaining
+   * Encapsulation
+   * Inheritance
+   * Polymorphism
  
