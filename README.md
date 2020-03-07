@@ -48,6 +48,13 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
       }
       const hewan = Hewan.instance();
       hewan.printJenis();
+      
+* Method chaining (metode berantai)
+ 
+      suatu method yang memangil secara berantai/beruntun dengan mereturn/mengembalikan nilai value yang sama
+      contoh :
+      
+  
 
  
  
