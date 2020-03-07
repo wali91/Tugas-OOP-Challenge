@@ -1,7 +1,7 @@
 # Object Oriented Programing & Design Pattern
 
 
-1. ## Object Oriented Programing
+ ## 1.Object Oriented Programing
 
        Object Oriented programing merupakan suatu paradigma yang berbasis object nyata pada kehidupan sehari-hari didalam melakukan pembuatan pemrograman,dimana didalam object tersebut memiliki property dan metode cara/fungsi didalam melakukan suatu proses property tersebut.
        
@@ -146,8 +146,23 @@
           };
             kucing.printAll();  // expected : rendi,berasal dari indonesia
             
-2. Design Pattern 
+## 2. Design Pattern 
 
-       Design Pattern merupakan sebuah prosedural dalam pengembangan aplikasi yang menjadi solusi dalam permasalahan secara umum.
+       Design Pattern merupakan sebuah prosedural dalam pengembangan aplikasi yang menjadi solusi dalam permasalahan secara umum.Design pattern hanya berbentuk template bukan sebuah code akhir untuk segera dieksekusi.
+   
+ Ada beberapa jenis Design Pattern :
+   - Separation of concern
+   - Factory pattern
+   - Adapter Pattern
+
+- Separation of concern
+
+      Design pattern membagi program dalam project menjadi bagian yang berbeda beda sehingga setiap bagian membahas masalah yang terpisah dengan bagian yang lain, contoh (Model View Controller).
   
+ - factory pattern
  
+       Design pattern pada class yang mempunyai ketergantungan dengan class lain tanpa harus diketahui cara pembuatan dari class tersebut.
+       
+  - Adapter Pattern
+  
+        Design pattern yang dalam satu class mempunyai banyak karakteristik yang berbeda pada sebuah property member yang sama.
