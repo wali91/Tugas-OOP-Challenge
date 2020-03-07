@@ -27,7 +27,7 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
    * Inheritance
    * Polymorphism
    
-**static method
+* H3 static method
              
       suatu method pada class yang mana memanggil methodnya tanpa membuat class dari method tersebut.
       contohnya :
