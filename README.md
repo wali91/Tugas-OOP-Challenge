@@ -119,4 +119,31 @@ Object Oriented programing merupakan suatu paradigma yang berbasis object nyata 
        const kucing = new Kucing("anggora", 4);
        kucing.kaki();      // expected : Kucing anggora mempunyai kaki 4
 
+* Polymorphism
+  
+      mengubah suatu method dari subclass yang berbeda sengan superclass
+       contoh :
+       //polyphorism
+         class Hewan {
+          constructor(nama) {
+          this.nama = nama;
+            }
+          printAll() {
+         console.log(this.nama);
+           }
+         }
+
+          class Kucing extends Hewan {
+          constructor(nama, negara) {
+          super(nama);
+          this.negara = negara;
+           }
+         }
+          const kucing = new Kucing("rendi", "indonesia");
+          Hewan.prototype.printAll = () => {
+          console.log(`${kucing.nama},berasal dari ${kucing.negara}`);
+          };
+            kucing.printAll();  // expected : rendi,berasal dari indonesia
+
+  
  
